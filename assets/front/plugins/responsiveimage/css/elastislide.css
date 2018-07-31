@@ -1,0 +1,122 @@
+/* Elastislide Style */
+.es-carousel-wrapper{
+	position:relative;
+}
+.es-carousel{
+	overflow:hidden;
+	padding-bottom: 0;
+}
+.es-carousel ul{
+	display:none;
+}
+.es-carousel ul li{
+	height:100%;
+	float:left;
+	display:block;
+	position: relative;
+}
+.es-carousel ul li .category{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	padding: 7px 10px;
+	background-color: #000;
+    opacity: .8;
+}
+.es-carousel ul li .category span{
+	font-size: 14px;
+	color: #fff;
+}
+.es-carousel ul li .category a{
+	position: absolute;
+	top: 0;
+	padding: 10px 0;
+}
+.es-carousel ul li .item{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	padding: 5px 10px;;
+	background-color: #000;
+    opacity: .8;
+}
+.es-carousel ul li .item span{
+	font-size: 14px;
+	color: #fff;
+	line-height: 24px;
+}
+.es-carousel ul li button{
+	position: absolute;
+    float: right;
+    bottom: 5px;
+    right: 10px;
+    padding: 1px 17px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #e4124f;
+    border: 1px solid #a30434;
+    border-radius: 2px;
+    background: -webkit-linear-gradient(top,#e4124f 0%,#9e0332 75%);
+    background: -moz-linear-gradient(top,#e4124f 0%,#9e0332 75%);
+    background: -o-linear-gradient(top,#e4124f 0%,#9e0332 75%);
+    background: -ms-linear-gradient(top,#e4124f 0%,#9e0332 75%);
+    filter: :;
+}
+.es-carousel ul li a{
+	display:block;
+	border-style:solid;
+	border-color:#222;
+	-webkit-touch-callout:none;
+	/* option */
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.es-carousel ul li.selected a{
+	border-color:#fff;
+	opacity:1.0;
+}
+.es-carousel ul li a img{
+	display:block;
+	border:none;
+	max-height:100%;
+	max-width:100%;
+}
+.es-nav span.es-nav-next{
+	position: absolute;
+    top: 45%;
+    right: -5px;
+    width: 14px;
+    height: 26px;
+    margin-top: -13px;
+    cursor: pointer;
+}
+.es-nav span.es-nav-prev{
+	position: absolute;
+    top: 45%;
+    left: -27px;
+    width: 14px;
+    height: 26px;
+    margin-top: -13px;
+    cursor: pointer;
+}
+.es-nav span:hover{
+	opacity:1.0;
+}
+.es-carousel ul li h4 {
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+    margin: 15px 0 10px 0;
+    padding: 0 5px;
+}
+.es-carousel ul li p {
+	font-size: 12px;
+    text-align: center;
+    line-height: 16px;
+    letter-spacing: 1px;
+    padding: 0 5px;
+}
